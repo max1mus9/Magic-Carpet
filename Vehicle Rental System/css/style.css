@@ -1,0 +1,100 @@
+.home {
+	min-height: 90vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 0 100px;
+	position: relative;
+}
+.home::before {
+	content: '';
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background: url('../image/bg1.jpg');
+	background-position: center;
+	background-size: cover;	
+	filter: grayscale(70%) saturate(70%);
+	z-index: -1;
+}
+
+.home h1 {
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 1px;
+	margin-bottom: 20px;
+}
+.home p {
+	color: #fff;
+	font-size: 1.2rem;
+	max-width: 650px;
+	letter-spacing: 0.5px;
+}
+
+
+.booking_form {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding: 2rem 0;
+}
+.booking_form .col {
+	margin: 0 20px;
+	padding: 10px;
+}
+
+.booking_form .col label {
+	display: block;
+	color: #666;
+	font-weight: 600;
+}
+.booking_form .col input {
+	background-color: #eee;
+	outline: none;
+	border: 2px solid #ccc;
+	padding: 2px 7px;
+	margin-right: 7px;
+	border-radius: 3px;
+}
+.booking_form .area input {
+	width: 100%;
+	padding: 4px 8px;
+}
+
+.about_us {
+	padding: 5rem 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #eee;
+}
+.about_us p {
+	max-width: 80%;
+	text-align: center;
+	margin: 0;
+	color: #444;
+	font-size: 1.1rem;
+	line-height: 26px;
+}
+
+.offers .card h5 {
+	color: #6b9b80;
+	text-transform: uppercase;
+}
+.offers .card h6 span {
+	color: #6b9b80;
+	font-weight: 700;
+	font-style: italic;
+}
+
+
+
+
+
+
+
+

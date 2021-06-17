@@ -1,0 +1,116 @@
+h2 {
+	font-family: arial;
+	letter-spacing: 1px;
+}
+.about {
+	height: 35vh;
+	background: url('../image/bg4.jpg');
+	background-position: center;
+	background-size: cover;
+}
+.about h1 {
+	color: #fff;
+	background: rgba(0, 0, 0, 0.4);
+	font-size: 2.7rem;
+	letter-spacing: 1.4px;
+	text-transform: uppercase;
+	margin: 0;
+	height: 100%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.about_content h2 {
+	color: #333;
+	margin-bottom: 20px;
+	font-size: 2.4rem;
+	font-weight: 800;
+	text-transform: capitalize;
+}
+.about_content h2 span {
+	color: #1e90ff;
+}
+.about_content p {
+	color: #444;
+	font-size: 1.28rem;
+	letter-spacing: 0.4px;
+	line-height: 30px;
+	font-weight: 500;
+	font-family: arial;
+}
+.card .body h4 {
+	text-transform: uppercase;
+	font-size: 1.3rem;
+	letter-spacing: 0.7px;
+	font-family: arial;
+}
+.card .body h6 {
+	letter-spacing: 1px;
+	color: #444;
+	font-family: arial;
+	font-weight: 500;
+}
+.card .body a {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 35px;
+	width: 35px;
+	border-radius: 3px;
+	border: 1.3px solid #999;
+	margin-right: 10px;
+	color: #777;
+	text-decoration: none;
+	transition: all 0.24s;
+}
+.card .body a:hover {
+	background: #555;
+	color: #fff;
+	box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+.achievements .heading {
+	font-size: 19px;
+	letter-spacing: 0.4px;
+	line-height: 34px;
+}
+.achievements div.icon {
+	font-size: 3.4rem;
+	color: #777;
+}
+
+.car_companies {
+	background: url('../image/bg4.jpg');
+	background-position: center;
+	background-size: cover;
+	color: #fff;
+	position: relative;
+}
+.car_companies::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background: rgba(0, 0, 0, 0.5);
+}
+.car_companies .container {
+	position: relative;
+}
+.car_companies .companies .single_company {
+	font-size: 2rem;
+	font-weight: 900;
+	font-family: arial;
+	letter-spacing: 1px;
+}
+
+
+
+
+
+
+
+
+
